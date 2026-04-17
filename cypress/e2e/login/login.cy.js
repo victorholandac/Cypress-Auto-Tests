@@ -26,6 +26,12 @@ describe('LoginTests', () => {
     LoginPage.validateLoginError('Your password is invalid!')
   })
 
+    it('Failed login with empty credentials', () => {
+    LoginPage.goto()
+    LoginPage.submitLogin()
+    LoginPage.validateLoginError('Your username is invalid!')
+  })
+
   
 })
 
