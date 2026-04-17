@@ -6,7 +6,7 @@ class LoginPage {
     loginError = '#error'
 
     goto() {
-        cy.visit('https://practicetestautomation.com/practice-test-login/')
+        cy.visit('/practice-test-login')
     }
     
     fillUsername(username) {
