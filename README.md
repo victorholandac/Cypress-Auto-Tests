@@ -30,6 +30,7 @@ cypress/
     ├── pages/
     │   ├── login.page.js
     │   └── table.page.js
+    │   └── exceptions.page.js
     ├── commands.js
     └── e2e.js
 ```
@@ -44,6 +45,7 @@ As páginas do sistema são encapsuladas em classes localizadas em `cypress/supp
 
 - **`login.page.js`** → ações e elementos da tela de login
 - **`table.page.js`** → validações e interações com tabelas
+- **`exceptions.page.js`** → validações em uma pagina que gera exceções para o Cypress naso não sejam tratadas
 
 **Benefícios:**
 - ✅ Reutilização de código
